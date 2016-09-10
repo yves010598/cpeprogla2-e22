@@ -22,6 +22,11 @@ void myStrCpy(char* str1, char* str2){
 strcpy(str1, str2);
 }
 
+void myStrCat(char* str1, char* str2){
+
+strcpy(str1, str2);
+
+
 int main(){
 	char str1[100]="Hello";
 	char str2[100]="hello";
