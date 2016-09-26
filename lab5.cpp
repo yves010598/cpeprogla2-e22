@@ -71,21 +71,17 @@ int problem1(){
             cin >> stud.quiz[i]; 
 			sum += stud.quiz[i]/3;       
     }
-    if(sum>=75){
-		cout << "\n\n";
+    	cout << "\n\n";
     	cout << "Display student records\n";
     	cout << "ID: " << stud.id << endl;
     	cout << "Name: " << stud.name.fullName << endl;
     	cout << "Grades: "<<sum<<endl;
+    if(sum>=75){
+	
     	cout << "Remarks :Passed"<<endl;    
     }
 	
 	else{
-		 cout << "\n\n";
-    cout << "Display student records\n";
-    cout << "ID: " << stud.id << endl;
-    cout << "First Name: " << stud.name.fullName << endl;
-    cout << "Grades: "<<sum<<endl;
     cout << "Remarks: Failed"<<endl;
     }
     
